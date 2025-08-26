@@ -1,0 +1,15 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; background: #0b0d10; color: #e5e7eb; }
+.container { max-width: 720px; margin: 48px auto; padding: 0 16px; }
+h1 { margin: 0 0 8px; font-size: 28px; }
+.muted { opacity: 0.8; margin: 4px 0 20px; }
+input[type=file] { margin: 12px 0; }
+button { padding: 10px 16px; border-radius: 8px; border: 0; cursor: pointer; }
+button[disabled] { opacity: 0.6; cursor: not-allowed; }
+.result { margin-top: 20px; }
+.actions { margin-top: 10px; }
+.notice { background: #111827; border: 1px solid #1f2937; padding: 12px; border-radius: 8px; margin: 12px 0 16px; }
+.adslot { margin-top: 32px; }
+a { color: #8ab4f8; }
+code { background: #1f2937; padding: 2px 6px; border-radius: 6px; }
